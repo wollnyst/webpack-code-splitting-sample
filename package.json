@@ -1,0 +1,17 @@
+{
+  "name": "webpack-code-splitting-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  	"start": "npm run build && serve dist",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stefan Wollny <stefanwollny@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^1.4.0",
+    "webpack": "^1.13.0"
+  }
+}
